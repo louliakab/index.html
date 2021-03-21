@@ -15,7 +15,3 @@ var answer= prompt(
 }else{
     alert('choose betwen home or salon please ');
 }
-
-   $("select").change(function () {
-    var ID = $(this).children(":selected").attr("id");
-    $('#selectBox')
