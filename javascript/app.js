@@ -11,24 +11,27 @@ var answer = prompt(
 while (answer !== 'home' && answer !== 'salon') {
     aswer = prompt('please only write home/salon');
 }
-var services = " "
+var services = ""
 if (answer == 'home') {
-    services = '<img src="picture/home.jpg"/>';
+    services += '<img src="picture/home.jpg"/>';
 } else if (answer == 'salon') {
-    services = '<img src="picture/salon.jpg"/>';
+    services += '<img src="picture/salon.jpg"/>';
 } else {
     alert('choose betwen home or salon please ');
 }
 
-var numberOfstar = prompt('What star rating would you give us');
+var numberOfstar = prompt ('What star rating would you give us');
 var stars = '';
 var result=""
-if (stars =>3) {
-    stars ='<img src="picture/star.jpg"/>';
-} else if (stars =>5) {
-    stars ='<img src="picture/star.jpg"/>';
-}
+// if (stars ='3') {
+//     stars +='<img src="picture/star.jpg"/>';
+// }
+//  else if (stars ='5') {
+//     stars +='<img src="picture/star.jpg"/>';
+// }
+
 for (var i = 0; i < numberOfstar; i++) {
-    result += stars;
+   stars +='<img src="picture/star.jpg"/>'
 }
 
+document.write(stars);
