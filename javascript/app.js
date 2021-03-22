@@ -3,11 +3,11 @@ alert("are you getting bored with the same look"
 
 alert("do you need a new style"
 );
-
+/*
 var answer = prompt(
     "do you prefer get our service at home or at salon"
 );
-
+/*
 while (answer !== 'home' && answer !== 'salon') {
     aswer = prompt('please only write home/salon');
 }
@@ -35,3 +35,4 @@ for (var i = 0; i < numberOfstar; i++) {
 }
 
 document.write(stars);
+© 2021 GitHub, 
