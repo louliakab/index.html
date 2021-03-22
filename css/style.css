@@ -1,10 +1,11 @@
 body{
-    background-color: rgb(241, 227, 237);
+    background-color:rgb(240, 210, 233);
     margin: 0%;
 }
 header{
     background-color: rgb(252, 232, 246);
     height: 80px;
+
 }
 
 header nav{
@@ -16,40 +17,43 @@ header nav{
 header h1{
  /* font-size: larger; */
     color: black;
-    text-align:center;
-    
+    text-align:center; 
 }
 header nav ul li{
     display: inline-block;
-    margin-left: 5%;
-    text-decoration: black;
-    /* float: right ;  */
+    margin-left: 10%;
+    text-decoration:none;
+     margin-left: 5%;
+     font-size: medium;
 
 }
 header nav ul li a{
     text-decoration-style:black; 
+    text-emphasis-color: black;
+    color:black
+    text style:black
     
 }
 #one{
-    background-color: #f3d7e1;
-    width: 500px;
-    height: 300px;
-    text-align:left;
+    background-color: #cebbc2;
+  
+    text-align:center;
     
 }
 
 #one h3{
     font-size: 40px;
     padding-top: 30px;
-    color: #ba9fd3 ;
+    color: #151416 ;
     text-align:center;
+    font-size: larger;
 }
 #one p{
     font-size: 20px;
     color: #070707 ;
-    text-align:right
+    text-align:center
+    font-size:smaller
 }
-
 #two {
     color: #ae7ddd ;
     background-color: #f4abc4;
@@ -66,15 +70,20 @@ header nav ul li a{
     margin-bottom: 20px;
     height: 80%;
 }
+#three font-size: 60px;
+text-align: center;
+vertical-align: middle
+
+
 
 footer{
-    height: 50px;
-    color:#f4abc4; 
-    background-color:rgb(190, 157, 221);
+       background-color:rgb(190, 157, 221);
 }
 
 footer p {
     font-size: 20px;
     text-align: center;
     vertical-align: middle
+    width:600px
+    height:450px
 }
